@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 const dotenv = require("dotenv")
 const app = express()
 const Routes = require("./routes/route.js")
-const PORT = 80
+const PORT = 7000
 MONGO_URL = 'mongodb+srv://Harshini_Togaru:Harshi123@cluster0.ilox2h5.mongodb.net/DriveReady1?retryWrites=true&w=majority'
 dotenv.config();
 app.use(express.json({ limit: '10mb' }))
